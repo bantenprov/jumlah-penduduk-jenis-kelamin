@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Bantenprov\JPJenisKelamin\Facades\JPJenisKelamin;
 
 /* Models */
-use Bantenprov\JPJenisKelamin\Models\Bantenprov\JPJenisKelamin\JPJenisKelamin as PdrbModel;
+use Bantenprov\JPJenisKelamin\Models\Bantenprov\JPJenisKelamin\JPJenisKelamin as JPJenisKelaminModel;
 use Bantenprov\JPJenisKelamin\Models\Bantenprov\JPJenisKelamin\Province;
 use Bantenprov\JPJenisKelamin\Models\Bantenprov\JPJenisKelamin\Regency;
 
@@ -28,7 +28,7 @@ class JPJenisKelaminController extends Controller
 
     protected $jumlah_penduduk_jenis_kelamin;
 
-    public function __construct(Regency $regency, Province $province, PdrbModel $jumlah_penduduk_jenis_kelamin)
+    public function __construct(Regency $regency, Province $province, JPJenisKelaminModel $jumlah_penduduk_jenis_kelamin)
     {
         $this->regency  = $regency;
         $this->province = $province;
@@ -105,7 +105,7 @@ class JPJenisKelaminController extends Controller
                     'type'      => 'success',
                     'title'     => 'success',
                     'id'      => $data->id,
-                    'message'   => 'PDRB '. $this->regency->find($request->regency_id)->name .' tahun '. $request->tahun .' successfully created',
+                    'message'   => 'Jumlah Penduduk '. $this->regency->find($request->regency_id)->name .' tahun '. $request->tahun .' successfully created',
                 ]);
         }
 

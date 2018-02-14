@@ -3,9 +3,9 @@
   <div>
         <div class="col-md-12 col-lg-9 dashboard-main">
         <!-- ===================================================================== --> 
-            <b-card header="Table PDRB Harga Dasar" header-tag="h4" class="bg-primary-card">
+            <b-card header="Jumlah Penduduk Berdasarkan Jenis Kelamin" header-tag="h4" class="bg-primary-card">
                 <div class="table-responsive">
-                    <datatable title="Data Jumlah PDRB Harga Dasar" :rows="tableData" :columns="columndata"></datatable>
+                    <datatable title="Data Jumlah Jumlah Penduduk Berdasarkan Jenis Kelamin" :rows="tableData" :columns="columndata"></datatable>
                 </div>
             </b-card> 
         <!-- ===================================================================== -->
@@ -27,7 +27,7 @@ Vue.use(ClientTable, {}, false);
 //import miniToastr from 'mini-toastr';
 //miniToastr.init();
 export default {
-    name: "PDRB Harga Dasar_list",
+    name: "Jumlah Penduduk Berdasarkan Jenis Kelamin_list",
     components: {
         datatable
     },
@@ -93,10 +93,10 @@ export default {
         }
     },
     mounted() {
-        axios.get("/PDRB Harga Dasar").then(response => {
+        axios.get("/Jumlah Penduduk Berdasarkan Jenis Kelamin").then(response => {
             this.tableData = response.data.result;
             this.tableData.forEach((item, index) => {
-                this.$set(item, "action", "<a class='btn btn-warning btn-sm' href='#/PDRB Harga Dasar/" + item.id + "/edit'><i class='leftmenu_icon ti-pencil-alt' class='icon'></i> Edit</a> <a class='btn btn-danger btn-sm' onclick='return confirm(\"Are Youu Sure?\")' href='#/PDRB Harga Dasar/" + item.id + "/destroy'><i class='leftmenu_icon ti-close' class='icon'></i> Delete</a>");
+                this.$set(item, "action", "<a class='btn btn-warning btn-sm' href='#/Jumlah Penduduk Berdasarkan Jenis Kelamin/" + item.id + "/edit'><i class='leftmenu_icon ti-pencil-alt' class='icon'></i> Edit</a> <a class='btn btn-danger btn-sm' onclick='return confirm(\"Are Youu Sure?\")' href='#/Jumlah Penduduk Berdasarkan Jenis Kelamin/" + item.id + "/destroy'><i class='leftmenu_icon ti-close' class='icon'></i> Delete</a>");
             });
         })
         .catch(function(error) {miniToastr.error(error, "Error")});
