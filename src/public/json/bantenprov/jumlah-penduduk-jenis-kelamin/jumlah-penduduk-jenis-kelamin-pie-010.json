@@ -1,170 +1,136 @@
 [
   {
     "xAxis": {
-      "type": "opd",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2012",
-      "index": "Banten-2012"
+      "type": "Jumlah Penduduk",
+      "region": "Banten",
+      "name": "Pandeglang",
+      "yyyy": "2017",
+      "index": "Pandeglang-2017"
     },
     "series": [
       {
         "data": [
-          {"value":5.18,"name":"Angkatan Kerja"},
-          {"value":4.66,"name":"Rasio penyerapan anggaran per OPD"}
+          {"value":605530,"name":"(L) Jumlah"},
+          {"value":569618,"name":"(P) Jumlah"}
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "type": "opd",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2012",
-      "index": "Indonesia-2012"
+      "type": "Jumlah Penduduk",
+      "region": "Banten",
+      "name": "Lebak",
+      "yyyy": "2017",
+      "index": "Lebak-2017"
     },
     "series": [
       {
         "data": [
-          {"value":119.85,"name":"Angkatan Kerja"},
-          {"value":112.5,"name":"Rasio penyerapan anggaran per OPD"}
+          {"value":629566,"name":"(L) Jumlah"},
+          {"value":592692,"name":"(P) Jumlah"}
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "type": "opd",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2013",
-      "index": "Banten-2013"
+      "type": "Jumlah Penduduk",
+      "region": "Banten",
+      "name": "Tangerang",
+      "yyyy": "2017",
+      "index": "Tangerang-2017"
     },
     "series": [
       {
         "data": [
-          {"value":5.18,"name":"Angkatan Kerja"},
-          {"value":4.69,"name":"Rasio penyerapan anggaran per OPD"}
+          {"value":1337968,"name":"(L) Jumlah"},
+          {"value":1281835,"name":"(P) Jumlah"}
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "type": "opd",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2013",
-      "index": "Indonesia-2013"
+      "type": "Jumlah Penduduk",
+      "region": "Banten",
+      "name": "Serang",
+      "yyyy": "2017",
+      "index": "Serang-2017"
     },
     "series": [
       {
         "data": [
-          {"value":120.17,"name":"Angkatan Kerja"},
-          {"value":112.76,"name":"Rasio penyerapan anggaran per OPD"}
+          {"value":734743,"name":"(L) Jumlah"},
+          {"value":700260,"name":"(P) Jumlah"}
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "type": "opd",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2014",
-      "index": "Banten-2014"
+      "type": "Jumlah Penduduk",
+      "region": "Banten",
+      "name": "Kota Tangerang",
+      "yyyy": "2017",
+      "index": "Kota Tangerang-2017"
     },
     "series": [
       {
         "data": [
-          {"value":5.34,"name":"Angkatan Kerja"},
-          {"value":4.86,"name":"Rasio penyerapan anggaran per OPD"}
+          {"value":834399,"name":"(L) Jumlah"},
+          {"value":817029,"name":"(P) Jumlah"}
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "type": "opd",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2014",
-      "index": "Indonesia-2014"
+      "type": "Jumlah Penduduk",
+      "region": "Banten",
+      "name": "Kota Cilegon",
+      "yyyy": "2017",
+      "index": "Kota Cilegon-2017"
     },
     "series": [
       {
         "data": [
-          {"value":121.87,"name":"Angkatan Kerja"},
-          {"value":114.63,"name":"Rasio penyerapan anggaran per OPD"}
+          {"value":206420,"name":"(L) Jumlah"},
+          {"value":198006,"name":"(P) Jumlah"}
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "type": "opd",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2015",
-      "index": "Banten-2015"
+      "type": "Jumlah Penduduk",
+      "region": "Banten",
+      "name": "Kota Serang",
+      "yyyy": "2017",
+      "index": "Kota Serang-2017"
     },
     "series": [
       {
         "data": [
-          {"value":5.33,"name":"Angkatan Kerja"},
-          {"value":4.83,"name":"Rasio penyerapan anggaran per OPD"}
+          {"value":323432,"name":"(L) Jumlah"},
+          {"value":306888,"name":"(P) Jumlah"}
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "type": "opd",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2015",
-      "index": "Indonesia-2015"
+      "type": "Jumlah Penduduk",
+      "region": "Banten",
+      "name": "Kota Tangerang Selatan",
+      "yyyy": "2017",
+      "index": "Kota Tangerang Selatan-2017"
     },
     "series": [
       {
         "data": [
-          {"value":122.38,"name":"Angkatan Kerja"},
-          {"value":114.82,"name":"Rasio penyerapan anggaran per OPD"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "opd",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2016",
-      "index": "Banten-2016"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":5.59,"name":"Angkatan Kerja"},
-          {"value":5.09,"name":"Rasio penyerapan anggaran per OPD"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "opd",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2016",
-      "index": "Indonesia-2016"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":125.44,"name":"Angkatan Kerja"},
-          {"value":118.41,"name":"Rasio penyerapan anggaran per OPD"}
+          {"value":626497,"name":"(L) Jumlah"},
+          {"value":617707,"name":"(P) Jumlah"}
         ]
       }
     ]
