@@ -3,7 +3,7 @@
     "xAxis": {
       "category": "Jumlah Penduduk",
       "region": "Banten",
-      "name": "(L) Jumlah",
+      "title": "(L) Jumlah",
       "data": [
         "PANDEGLANG",
         "LEBAK",
@@ -34,7 +34,7 @@
     "xAxis": {
       "category": "Jumlah Penduduk",
       "region": "Banten",
-      "name": "(P) Jumlah",
+      "title": "(P) Jumlah",
       "data": [
         "PANDEGLANG",
         "LEBAK",
